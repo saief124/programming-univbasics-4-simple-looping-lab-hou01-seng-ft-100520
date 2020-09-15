@@ -1,8 +1,9 @@
 # Write your methods here
-counter=0
-def loop_message_five_times("string")
+
+def loop_message_five_times(string)
+  counter=0
   while counter < 5 do
-    puts "string"
+    puts string
     counter +=1
   end
 end
